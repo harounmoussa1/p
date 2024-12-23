@@ -1,0 +1,82 @@
+body.mexico {
+  font-family: "Roboto", sans-serif;
+  background-color: #f5e6c8;
+  margin: 0;
+  padding: 0;
+  background: url(../../public/assets/f5d28e.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  background-color: #f5d28e;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.search-input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.hero-mexico {
+  text-align: center;
+  padding: 170px 50px;
+  background-image: url("../../public/assets/mexiq.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+.grid-mexico {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two images per row */
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-mexico {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.card-mexico:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-image-mexico {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-name-mexico {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-transform: capitalize;
+}
